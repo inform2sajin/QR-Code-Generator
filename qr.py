@@ -2,7 +2,7 @@
 import qrcode as qr
 
 # Create a QRCode with specific parameter
-features = qr.QRCode(version=1,box_size=45,border=4)
+features = qr.QRCode(version=1,box_size=35,border=3)
 
 # Add the data to be encoded in the QR code - in this case this is my github profile URL
 features.add_data('https://github.com/inform2sajin')
